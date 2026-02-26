@@ -42,7 +42,7 @@ This application runs in the terminal and continues execution until the user cho
 ## 📂 Project Structure
 
 PasswordManager/
-│── main.py  
+│── password manager.py  
 │── data.txt  
 │── README.md  
 
