@@ -81,7 +81,8 @@ PasswordManager/
 
 ## 👨‍💻 Author
 
-Dinesh Sonawane
+**Dinesh Sonawane**  
+Python Developer | Backend Enthusiast 
 
 ---
 
