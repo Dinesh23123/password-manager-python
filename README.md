@@ -20,7 +20,6 @@ This application allows users to store and retrieve credentials using persistent
 
 - Python 3
 - File Handling (read, write, append)
-- Functions & Modular Programming
 - Loops & Conditional Statements
 - Command Line Interface (CLI)
 
