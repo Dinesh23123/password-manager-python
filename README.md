@@ -1,91 +1,121 @@
-# 🔐 Console-Based Password Manager
+# 🔐 Console-Based Password Manager (Python)
 
-A simple and secure console-based Password Manager built using Python.  
-This project demonstrates core Python concepts like file handling, functions, loops, and menu-driven programming.
-
----
-
-## 📖 Project Overview
-
-The Console-Based Password Manager allows users to:
-
-- Store website names and passwords
-- View all saved credentials
-- Search for a password using the website name
-- Store data permanently using file handling
-
-This application runs in the terminal and continues execution until the user chooses to exit.
+A simple and secure command-line Password Manager built using Python.  
+This application allows users to store and retrieve credentials using persistent file storage while demonstrating structured programming and core backend logic.
 
 ---
 
 ## 🚀 Features
 
-✅ Add new website credentials  
-✅ View all stored passwords  
-✅ Search password by website name  
-✅ Persistent data storage using text file  
-✅ Simple and user-friendly menu interface  
-✅ Continuous execution until exit  
+- 🔑 Add new website credentials
+- 📂 View all stored passwords
+- 🔍 Search password by website name
+- 💾 Persistent data storage using text file
+- 🔁 Menu-driven CLI interface
+- ▶ Continuous execution until user exits
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - Python 3
 - File Handling (read, write, append)
-- Functions
-- Loops
-- Conditional Statements
+- Functions & Modular Programming
+- Loops & Conditional Statements
+- Command Line Interface (CLI)
 
 ---
 
 ## 📂 Project Structure
 
+```
 PasswordManager/
-│── password_manager.py  
-│── data.txt  
-│── README.md  
+│
+├── password_manager.py
+├── data.txt
+└── README.md
+```
 
 ---
 
-## ▶️ How to Run the Project
+## ▶ How to Run
 
-1. Make sure Python 3 is installed.
-2. Clone or download this repository.
-3. Open terminal in the project folder.
-4. Run the following command:
+### 1️⃣ Clone the repository
 
-   python password_manager.py
+```
+git clone https://github.com/Dinesh23123/password-manager-python.git
+```
+
+### 2️⃣ Navigate into the folder
+
+```
+cd password-manager-python
+```
+
+### 3️⃣ Run the program
+
+```
+python password_manager.py
+```
+
+(Use `python3 password_manager.py` if required)
 
 ---
 
-## 💡 Concepts Practiced
+## 💡 Example Usage
 
-- String Manipulation
-- File Handling
-- Searching in Files
-- Menu-Driven Programming
-- Basic Logic Building
+```
+===== Password Manager =====
+1. Add Password
+2. View All Passwords
+3. Search Password
+4. Exit
+
+Enter choice: 1
+Enter website name: github
+Enter password: mypassword123
+
+Data stored successfully!
+```
 
 ---
 
-## 🔒 Future Enhancements
+## 🧠 Concepts Demonstrated
 
-- Password encryption for better security
-- Password masking using getpass module
-- GUI version using Tkinter
-- Database integration (SQLite)
-- User login authentication system
+- File handling for persistent data storage
+- Searching and retrieving records from files
+- Menu-driven program structure
+- Loop control using `while True`
+- Basic error handling and validation
+- Structured function-based design
+
+---
+
+## 🔒 How It Works
+
+- Credentials are stored in a text file (`data.txt`).
+- Each record is saved in a structured format.
+- The program reads the file to retrieve or search stored credentials.
+- Data remains saved even after program termination.
+
+---
+
+## 📌 Future Improvements
+
+- Add password encryption for enhanced security
+- Use `getpass` module for password masking
+- Add duplicate website detection
+- Implement user authentication system
+- Upgrade to GUI version using Tkinter
+- Integrate SQLite database for structured storage
 
 ---
 
 ## 👨‍💻 Author
 
 **Dinesh Sonawane**  
-Python Developer | Backend Enthusiast 
+Python Developer | Backend Enthusiast  
 
 ---
 
-## ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+⭐ If you found this project helpful, feel free to star the repository!
