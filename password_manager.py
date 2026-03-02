@@ -1,42 +1,3 @@
-# # password manager
-
-
-# while True:
-#  print("1.Save website name and password")
-#  print("2.View all saved passwords")
-#  print("3.search password")
-#  print("4.exit")
-
-#  choice = input("Enter your choice: ")
-  
-#  if choice == 1:
-#        website = input("Enter Website name: ")
-#        password = input("Enter your password: ") 
-
-#  elif choice == 2:
-#    pass
-   
- 
-#  elif choice == 3:
-#    pass
-   
- 
-#  elif choice == 4:
-#        print("Exited")
-#        break
-
-
-
-# #  with open("data.txt",'a') as f:
-# #     f.write(input("Enter password: "))
-
-
-# #  with open("data.txt",'r') as f:
-# #     print(f.read())
-
-
-
-
 while True:
  print("1. Save website name and password")
  print("2. view all passwords")
@@ -81,3 +42,4 @@ while True:
  else:
 
     print("Invalid choice! Try again.")
+
